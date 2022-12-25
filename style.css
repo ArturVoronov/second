@@ -1,0 +1,16 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.wrapper { 
+    min-height:50vh;
+    width: 100%;
+
+background-image: linear-gradient(0deg, rgb(21, 255, 0), rgb(0, 153, 255));
+text-align: center;
+
+padding-top:30%;
+}
+.eq {
+   color: brown; font-size:200%; font-family:Georgia, 'Times New Roman', Times, serif;font-weight: bold;
+}
