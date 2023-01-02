@@ -5,10 +5,39 @@
     "version": "0.2.0",
     "configurations": [
         {
+<<<<<<< HEAD
             "type": "msedge",
             "request": "launch",
             "name": "Open index.html",
             "file": "c:\\Users\\Артур\\githu_second\\second-1\\index.html"
+=======
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "egge",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+>>>>>>> bec10e3c6c7c05db329cdbe96a836e1f347c085c
         }
     ]
 }
